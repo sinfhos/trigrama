@@ -17,7 +17,7 @@
         <div class="container contieneForm" id="contienePrincipal" style="width: 60%;">
             <div id="subirArchivo">
                 <form id="formSubir">
-                    <input type="file" name="archivo" id="archivo">
+                    <input type="file" name="archivo" id="archivo" accept=".txt">
                 </form>
 
                 <div class="contieneBotones">
