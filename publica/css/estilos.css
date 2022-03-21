@@ -1,0 +1,116 @@
+ /*Div proncipal*/
+ /*******************************************************************************************************/
+.principal{
+    border: 1px solid #CCC;
+    min-height: 500px;
+    padding: 20px;
+}
+
+.principal h1{
+    color: rgb(6, 153, 179);
+    text-align: center;
+}
+
+/*Pie de página */
+/*******************************************************************************************************/
+.contienePie{ 
+    text-align: center;
+    color: rgb(2, 45, 85);
+    font-size: .8em;
+}
+
+.contienePie p{
+    margin: 0!important;
+}
+
+/*Contedor formularios */
+/*******************************************************************************************************/
+.contieneForm{ 
+    background-color: rgb(243, 243, 243);
+    padding: 25px;
+    border: 1px solid #CCC;
+    margin: 50px auto !important;
+    box-shadow: #CCC -5px -3px 15px 1px;
+}
+
+/* Botones */
+/*******************************************************************************************************/
+button{ 
+    padding:7px 15px;
+    background-color: rgb(18, 135, 189);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(14, 108, 151);
+    box-shadow: #CCC -5px -3px 15px 1px;
+}
+
+.contieneBotones{
+    margin-top: 30px;
+}
+
+
+/* Contenedor de los resultados Trigramas y Bigramas */
+/*******************************************************************************************************/
+#contienePrincipal{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between ;
+}
+
+#contieneTrigrama, #contieneBigrama, #contieneAnalisis{
+    display: none;
+    padding: 15px;
+    border: 1px solid #CCC;
+    width: 35%;
+}
+
+#contieneTrigrama p, #contieneBigrama p, #contieneAnalisis p{
+    color: rgb(60, 34, 119);
+    margin: 2px !important;
+    padding: 0 !important;
+}
+
+.titulo{
+    color: rgb(9, 106, 151) !important;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+#resultadoTrigrama, #resultadoBigrama,  #resultadoAnalisis{
+    margin: 20px auto;
+    flex-wrap:wrap-reverse;
+}
+
+#contieneNuevasPalabras, #btnPalabras{
+    display: none;
+}
+
+
+/* Página errores */
+/*******************************************************************************************************/
+.imgError{
+    width: 25%;
+    margin: 50px auto;
+}
+
+.contieneError{
+    padding: 20px;
+    text-align: center;
+}
+
+.mensajeError{
+    padding: 15px;
+    background-color: rgb(230, 230, 230);
+    color: rgb(172, 55, 2);
+}
+
+
+
+
